@@ -1,5 +1,24 @@
-Portfólio de Alexandre Guimarães.
+# Portfólio · Alexandre Guimarães (PT-BR / EN)
 
-Profissional com mais de 18 anos de experiência em Gestão de TI, Transformação Digital e Inovação, liderando equipes multidisciplinares na implementação de soluções tecnológicas inovadoras. Tenho sólida expertise em arquitetura de sistemas, automação de processos com RPA, integração de Data Lakes e Machine Learning, além de aplicar práticas de BPM para otimização de processos e governança. Experiência em implantação de ITSM para gestão de ativos de TI, controle de contratos e serviços, e na implementação de SOC para garantir a segurança cibernética. Atuei também na migração de diversos sistemas legados, ERP, WMS, e-commerce, etc, e no desenvolvimento e implantação de soluções de de automação e transformação digital com IA e tecnologias emergentes, incluindo chatbots, micro-serviços, integração de API’s e IoT. Com forte olhar em cibersegurança, asseguro a integridade e segurança dos dados e sistemas, enquanto lidero a adoção de governança, LGPD e compliance de dados garantindo segurança e conformidade organizacional.
+Site estático, sem build. Abre em **português** por padrão; o botão PT/EN no topo troca o idioma
+(a escolha fica salva no navegador; `?lang=en` força o inglês).
 
-Acesse: https://ascguimaraes.github.io/portfolio/
+## Publicar no GitHub Pages
+
+1. No repositório do portfólio (ex.: `ascguimaraes.github.io`, pasta/repositório `portfolio`),
+   coloque o conteúdo desta pasta na raiz: `index.html`, `assets/`, `.nojekyll` e os arquivos de ícone (`favicon*.png`, `favicon.ico`, `apple-touch-icon.png`).
+2. Faça commit e push na branch `main`.
+3. Em **Settings → Pages**, escolha *Deploy from a branch* → `main` → `/ (root)`.
+4. Endereço esperado: https://ascguimaraes.github.io/portfolio/
+
+## Estrutura
+
+- `index.html`: conteúdo (cada texto tem `lang="pt"` e `lang="en"`)
+- `assets/style.css`: cores e fontes (Playfair Display + DM Sans, paleta do portfólio antigo)
+- `assets/main.js`: idioma, abas, filtro de cases, carrossel de recomendações
+- `assets/alexandre-portfolio.jpg` e `assets/alexandre-linkedin.jpg`: fotos
+
+## Editar textos
+
+Procure o par `<span lang="pt">…</span><span lang="en">…</span>` e altere os dois.
+Para trocar as fotos, substitua os arquivos em `assets/` mantendo os nomes.
