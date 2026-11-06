@@ -62,5 +62,3 @@ Site estático (HTML, CSS e JavaScript), sem etapa de build, publicado com GitHu
 ├── apple-touch-icon.png
 └── .nojekyll
 ```
-
-Para publicar: **Settings → Pages → Deploy from a branch → `main` / `(root)`**.
